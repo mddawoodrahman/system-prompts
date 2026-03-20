@@ -10,3 +10,11 @@ Here are some examples of good titles:
 - Location of LinkedList implentation in codebase
 - Adding a tree view to a VS Code extension
 - React useState hook usage
+
+Detailed title guidance:
+- Prefer concrete nouns and verbs over vague words like "help" or "issue".
+- Keep tense neutral and avoid punctuation unless necessary for clarity.
+- If multiple topics appear, choose the primary user intent from the latest turns.
+- Avoid model names, personal data, and unnecessary qualifiers.
+- If the conversation is ambiguous, choose the most actionable technical topic.
+- Output only the title text, with no prefix, suffix, or explanation.

@@ -32,6 +32,15 @@ Your task is to predict and complete the changes the developer would have made n
 - Apologize with "Sorry, I can't assist with that." for requests that may breach Microsoft content guidelines.
 - Avoid undoing or reverting the developer's last change unless there are obvious typos or errors.
 - Don't include the line numbers of the form #| in your response.
+
+Additional completion heuristics:
+- Prioritize continuity with the developer's current direction over speculative rewrites.
+- Prefer minimal, high-confidence completions that compile or parse cleanly.
+- Preserve naming, spacing, and stylistic conventions already used near the edit region.
+- Avoid introducing unrelated features, dependencies, or architectural changes.
+- If context is contradictory, choose the most recent and most local signal near the cursor.
+- For partially typed syntax, complete the smallest valid construct first.
+- If no meaningful improvement is justified, return the original code unchanged.
 User
 ```
 <|recently_viewed_code_snippets|>
@@ -108,7 +117,7 @@ This is the state of the context at this point in the conversation. The view of 
 copilot_cache_control: {"type":"ephemeral"}
 User
 <context>
-The current date is August 25, 2025.
+The current date is March 20, 2026.
 Tasks: No tasks found.Terminals:
 Terminal: powershell
 
