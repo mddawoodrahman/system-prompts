@@ -411,7 +411,7 @@
     },
     {
       "name": "tabs_context",
-      "description": "Get context information about all tabs in the current tab group",
+      "description": "Get context details about all tabs in the current tab group",
       "input_schema": {
         "type": "object",
         "properties": {},
