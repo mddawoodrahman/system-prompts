@@ -34,9 +34,27 @@ This repository serves as a **central knowledge base** for prompt engineering an
 ```bash
 .
 ├── Anthropic/
+├── Augment Code/
+├── Cluely/
+├── CodeBuddy Prompts/
+├── Comet Assistant/
 ├── Cursor Prompts/
-├── Open Source prompts/
-├── VSCode Agent/
+├── Devin AI/
+├── Emergent/
 ├── Google/
-├── Tools & Schemas/
+├── Kiro/
+├── Lovable/
+├── Manus Agent Tools & Prompt/
+├── NotionAi/
+├── Open Source prompts/
+├── Orchids.app/
+├── Perplexity/
+├── Replit/
+├── Same.dev/
+├── Trae/
+├── VSCode Agent/
+├── Warp.dev/
+├── Windsurf/
+├── LICENSE
 └── README.md
+```
