@@ -162,13 +162,6 @@ We welcome contributions from the community!
 3. Add your prompt/tool
 4. Submit a Pull Request
 
----
-
-## 📊 GitHub Stats
-
-![Repo Stats](https://github-readme-stats.vercel.app/api?username=mddawoodrahman\&show_icons=true)
-
----
 
 ## ⭐ Support
 
